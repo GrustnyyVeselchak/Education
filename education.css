@@ -153,7 +153,7 @@ html {
   
   #front { margin-top: 60px; }
 
-  /*end main block*/
+  /*the end main block*/
 
   .footer, .header {
   background-color: #282727;
@@ -465,7 +465,7 @@ html {
     border: 1ps solid #282727;
    }
 
-        /*main blocks*/
+    /*main blocks*/
     .divBlock{
         display: block;
         margin-top: 40px;
@@ -583,6 +583,67 @@ html {
       height: 26px;
       cursor: pointer;
   }
+
+  /*main blocks*/
+    .divBlock{
+      display: block;
+      margin-top: 40px;
+  }
+
+
+  .pointer{ cursor: pointer; }
+
+  button{
+      border: 1px solid #282727;
+      border-radius: 20px;
+      background-color: #282727;
+      color: #F0F0F0;
+      size: 20px;
+      width: 95%;
+      height: 85px;
+      font-size: larger;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+
+  article{
+      background-color: #F0F0F0;
+      border-radius: 20px;
+      border: 1px solid #282727;
+      width: 95%;
+      min-height: 100px;
+      max-height: 800px;
+      margin-top: -50px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: auto;
+      padding:50px 0px 50px;
+  }
+
+  .clicked{ display: none; }
+
+  p {padding: 0px 1% 40px 1%;}
+
+  #course{
+      font-size: 18px;
+      text-align: center;
+      border: 1px solid #FAEEEE;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 45px ;
+      padding: 10px 40px;
+      background-color: #282727;
+      
+  }
+
+  #course:hover{
+      color: #282727;
+      background-color: #F0F0F0;
+      border: 1px solid #282727;
+  }
+
+  #front { margin-top: 60px; }
+
+  /*the end main block*/
 
   .ffmito-img {
     height: 55%;
